@@ -1,4 +1,4 @@
-# CDYstack â€?CEO Decision Toolkit for Claude Code
+# CDYstack - CEO Decision Toolkit for Claude Code
 
 A collection of 9 CEO-focused skills for startup founders and operators who need faster decisions, tighter prioritization, and a persistent operating memory.
 
@@ -105,109 +105,9 @@ Just describe what you need in natural language after `/ceo`:
 /ceo Weekly review
 ```
 
-Or call any skill directly:
-
-```text
-/ceo-decide Should we hire a VP of Engineering?
-/ceo-portfolio review
-/ceo-action team
-/ceo-prioritize firefight
-/ceo-compete analyze Discord
-/ceo-market scan AI for social apps
-/ceo-comm investor
-/ceo-review quarterly
-```
-
 ### 3. Data Persists
 
 All your data is stored in `memory/ceo/`. It carries across sessions. Your portfolio, decisions, weekly reviews, and learnings accumulate over time.
-
----
-
-## Overview
-
-CDYstack covers four domains:
-
-| Domain | Tools | Core Question |
-|--------|-------|---------------|
-| Strategy | `ceo-decide`, `ceo-portfolio` | Should we? What are we building? |
-| Execution | `ceo-action`, `ceo-prioritize` | Why is this blocked? What matters most? |
-| Intelligence | `ceo-compete`, `ceo-market` | What are they doing? Where is the market going? |
-| Content | `ceo-comm`, `ceo-review` | What do I say? How did we do? |
-
-Every skill has persistent memory across sessions. Your portfolio, decisions, and weekly reviews accumulate over time.
-
----
-
-## Tools Reference
-
-### `/ceo` â€?Router
-
-The entry point. Classifies your intent and dispatches to the right tool.
-
-```text
-/ceo I need to decide on pricing
-/ceo Look at my products
-/ceo Help me think through something
-```
-
-### `/ceo-decide` â€?Decision Making
-
-Go/no-go decisions with a two-stage framework:
-
-1. Dissolution check
-2. YC forcing questions
-
-Output: a one-page decision brief with GO / NO-GO / DEFER and the next action.
-
-### `/ceo-portfolio` â€?Product Portfolio Management
-
-Manage a multi-product portfolio across five stages:
-
-Explore -> Validate -> Scale -> Mature -> Sunset
-
-### `/ceo-action` â€?Execution Blocker Diagnosis
-
-Diagnoses why things are not getting done across self, team, and process.
-
-### `/ceo-prioritize` â€?Priority Framework
-
-Forced ranking with ICE scoring.
-
-### `/ceo-compete` â€?Competitive Intelligence
-
-Five-filter analysis that eliminates noise.
-
-### `/ceo-market` â€?Market Intelligence
-
-Three-perspective trend analysis:
-
-1. Technology
-2. Market
-3. User behavior
-
-### `/ceo-comm` â€?Communication Preparation
-
-Drafts and reviews memos, investor updates, and social posts.
-
-### `/ceo-review` â€?Weekly Review Ritual
-
-Structured weekly review that catches drift and maintains accountability.
-
----
-
-## Memory System
-
-All state persists in `memory/ceo/`:
-
-- `portfolio-state.md`
-- `competitive-intel.md`
-- `market-intel.md`
-- `decision-log.md`
-- `weekly-log.md`
-- `priorities.md`
-- `comm-archive.md`
-- `learnings.md`
 
 ---
 
