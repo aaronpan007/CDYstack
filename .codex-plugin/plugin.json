@@ -1,0 +1,43 @@
+{
+  "name": "cdy-stack",
+  "version": "0.1.0",
+  "description": "CEO decision toolkit for founders and operators who need strategy, prioritization, and persistent operating memory.",
+  "author": {
+    "name": "Aaron Pan",
+    "email": "opensource@example.com",
+    "url": "https://github.com/aaronpan007"
+  },
+  "homepage": "https://github.com/aaronpan007/CDYstack",
+  "repository": "https://github.com/aaronpan007/CDYstack",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "claude-code",
+    "codex",
+    "ceo",
+    "decision-making",
+    "prioritization"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "CDYstack",
+    "shortDescription": "CEO decision toolkit",
+    "longDescription": "A persistent decision toolkit for startup CEOs covering strategy, execution, intelligence, communication, and review.",
+    "developerName": "Aaron Pan",
+    "category": "Productivity",
+    "capabilities": [
+      "Write",
+      "Plan",
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/aaronpan007/CDYstack",
+    "privacyPolicyURL": "https://github.com/aaronpan007/CDYstack",
+    "termsOfServiceURL": "https://github.com/aaronpan007/CDYstack",
+    "defaultPrompt": [
+      "Should we launch this feature?",
+      "Help me rank this week's priorities",
+      "Run my CEO weekly review"
+    ],
+    "brandColor": "#274C77"
+  }
+}
