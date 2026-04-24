@@ -1,4 +1,4 @@
-# CDYstack â€” CEO Decision Toolkit for Claude Code
+# CDYstack â€?CEO Decision Toolkit for Claude Code
 
 A collection of 9 CEO-focused skills for startup founders and operators who need faster decisions, tighter prioritization, and a persistent operating memory.
 
@@ -141,7 +141,7 @@ Every skill has persistent memory across sessions. Your portfolio, decisions, an
 
 ## Tools Reference
 
-### `/ceo` â€” Router
+### `/ceo` â€?Router
 
 The entry point. Classifies your intent and dispatches to the right tool.
 
@@ -151,7 +151,7 @@ The entry point. Classifies your intent and dispatches to the right tool.
 /ceo Help me think through something
 ```
 
-### `/ceo-decide` â€” Decision Making
+### `/ceo-decide` â€?Decision Making
 
 Go/no-go decisions with a two-stage framework:
 
@@ -160,25 +160,25 @@ Go/no-go decisions with a two-stage framework:
 
 Output: a one-page decision brief with GO / NO-GO / DEFER and the next action.
 
-### `/ceo-portfolio` â€” Product Portfolio Management
+### `/ceo-portfolio` â€?Product Portfolio Management
 
 Manage a multi-product portfolio across five stages:
 
 Explore -> Validate -> Scale -> Mature -> Sunset
 
-### `/ceo-action` â€” Execution Blocker Diagnosis
+### `/ceo-action` â€?Execution Blocker Diagnosis
 
 Diagnoses why things are not getting done across self, team, and process.
 
-### `/ceo-prioritize` â€” Priority Framework
+### `/ceo-prioritize` â€?Priority Framework
 
 Forced ranking with ICE scoring.
 
-### `/ceo-compete` â€” Competitive Intelligence
+### `/ceo-compete` â€?Competitive Intelligence
 
 Five-filter analysis that eliminates noise.
 
-### `/ceo-market` â€” Market Intelligence
+### `/ceo-market` â€?Market Intelligence
 
 Three-perspective trend analysis:
 
@@ -186,11 +186,11 @@ Three-perspective trend analysis:
 2. Market
 3. User behavior
 
-### `/ceo-comm` â€” Communication Preparation
+### `/ceo-comm` â€?Communication Preparation
 
 Drafts and reviews memos, investor updates, and social posts.
 
-### `/ceo-review` â€” Weekly Review Ritual
+### `/ceo-review` â€?Weekly Review Ritual
 
 Structured weekly review that catches drift and maintains accountability.
 
@@ -223,23 +223,23 @@ CDYstack/
 |-- install.sh
 |-- skills/
 |   |-- ceo/
-|   |   `-- skill.md
+|   |   `-- SKILL.md
 |   |-- ceo-decide/
-|   |   `-- skill.md
+|   |   `-- SKILL.md
 |   |-- ceo-portfolio/
-|   |   `-- skill.md
+|   |   `-- SKILL.md
 |   |-- ceo-action/
-|   |   `-- skill.md
+|   |   `-- SKILL.md
 |   |-- ceo-prioritize/
-|   |   `-- skill.md
+|   |   `-- SKILL.md
 |   |-- ceo-compete/
-|   |   `-- skill.md
+|   |   `-- SKILL.md
 |   |-- ceo-market/
-|   |   `-- skill.md
+|   |   `-- SKILL.md
 |   |-- ceo-comm/
-|   |   `-- skill.md
+|   |   `-- SKILL.md
 |   `-- ceo-review/
-|       `-- skill.md
+|       `-- SKILL.md
 `-- memory/
     `-- ceo/
         |-- portfolio-state.md

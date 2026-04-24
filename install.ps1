@@ -74,7 +74,7 @@ New-Item -ItemType Directory -Force -Path (Join-Path $Target "memory/ceo") | Out
 
 Write-Host "Installing skills..."
 foreach ($skill in $Skills) {
-    Install-File "skills/$skill/skill.md" (Join-Path $Target ".claude/skills/$skill/skill.md")
+    Install-File "skills/$skill/SKILL.md" (Join-Path $Target ".claude/skills/$skill/SKILL.md")
 }
 
 Write-Host ""
@@ -101,7 +101,7 @@ if ($NeedsBlock) {
     Write-Host "Adding CDYstack block to CLAUDE.md..."
     @'
 
-# CDYstack â€” CEO Decision Toolkit
+# CDYstack â€?CEO Decision Toolkit
 # Start with /ceo as the router. Full docs: https://github.com/aaronpan007/CDYstack
 
 ## CEO Assistant

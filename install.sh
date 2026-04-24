@@ -1,5 +1,5 @@
 #!/bin/bash
-# CDYstack â€” CEO Decision Toolkit for Claude Code
+# CDYstack â€?CEO Decision Toolkit for Claude Code
 # Usage: curl -sL https://raw.githubusercontent.com/aaronpan007/CDYstack/main/install.sh | bash
 # Or:  ./install.sh              (from local clone)
 # Or:  ./install.sh /path/to/project   (specify target project)
@@ -21,7 +21,7 @@ if [ ! -d "$TARGET" ]; then
 fi
 
 echo ""
-echo "  CDYstack â€” CEO Decision Toolkit"
+echo "  CDYstack â€?CEO Decision Toolkit"
 echo "  Installing to: $TARGET"
 echo ""
 
@@ -63,12 +63,12 @@ MEMORY_FILES=(portfolio-state.md competitive-intel.md market-intel.md decision-l
 # --- Install skills ---
 echo "Installing skills..."
 for skill in "${SKILLS[@]}"; do
-    dest="$TARGET/.claude/skills/$skill/skill.md"
+    dest="$TARGET/.claude/skills/$skill/SKILL.md"
     mkdir -p "$TARGET/.claude/skills/$skill"
     if [ -d "$LOCAL_SKILLS/$skill" ]; then
-        copy_local "$LOCAL_SKILLS/$skill/skill.md" "$dest"
+        copy_local "$LOCAL_SKILLS/$skill/SKILL.md" "$dest"
     else
-        download "$REPO_RAW/skills/$skill/skill.md" "$dest"
+        download "$REPO_RAW/skills/$skill/SKILL.md" "$dest"
     fi
 done
 
@@ -95,11 +95,11 @@ else
     echo "Adding CDYstack block to CLAUDE.md..."
     cat >> "$CLAUDE_MD" << 'BLOCK'
 
-# CDYstack â€” CEO Decision Toolkit
+# CDYstack â€?CEO Decision Toolkit
 # Start with /ceo as the router. Full docs: https://github.com/aaronpan007/CDYstack
 
 ## CEO Assistant
-- `/ceo` - Router: classify intent â†’ dispatch
+- `/ceo` - Router: classify intent â†?dispatch
 - `/ceo-decide` - Go/no-go decisions (dissolution + YC questions)
 - `/ceo-portfolio` - Multi-product portfolio management
 - `/ceo-action` - Execution blocker diagnosis (self/team/process)
